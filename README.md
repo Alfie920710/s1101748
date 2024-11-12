@@ -7,6 +7,7 @@
 - pthread.cpp
 - NumProcessingUsingThread.cpp
 - AddWithoutOperator.cpp
+- SimpleIdleGame_NoSave.cpp
 
 
 
@@ -75,6 +76,13 @@ Fibonacci(1) is 1.
 
 ### 測試環境
 此專案採用Windows 11 home 23H2作為測試環境，並採用GCC作為程式之編譯。
+
+
+
+## SimpleIdleGame_NoSave.cpp
+此專案為簡易放置遊戲之實作
+遊戲內容為通過放置及被動收穫資源（coins），並可通過消耗資源升級收穫資源的速度。
+**注意：** 本遊戲不支援存檔功能，任何通過本程式進行儲存的遊戲檔案僅於程式執行時生效。
 
 
 
